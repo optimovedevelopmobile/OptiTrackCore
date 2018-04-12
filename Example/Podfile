@@ -1,0 +1,6 @@
+use_frameworks!
+target 'OptiTrackCore_Tests' do
+  pod 'OptiTrackCore', :path => '../'
+  
+  
+end
