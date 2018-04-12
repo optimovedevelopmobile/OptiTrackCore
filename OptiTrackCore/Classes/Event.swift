@@ -27,7 +27,7 @@ import CoreGraphics
 /// - cid: We will use the uid instead of the cid.
 public struct Event {
     let siteId: String
-    let uuid: NSUUID
+    public let uuid: NSUUID
     let visitor: Visitor
     let session: Session
     
