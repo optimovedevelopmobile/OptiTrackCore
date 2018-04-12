@@ -1,0 +1,16 @@
+PODS:
+  - OptiTrackCore (0.1.0)
+
+DEPENDENCIES:
+  - OptiTrackCore (from `../`)
+
+EXTERNAL SOURCES:
+  OptiTrackCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OptiTrackCore: 011d0fbde9ba2728b26f6cf0285688c208519b0d
+
+PODFILE CHECKSUM: a09f33d5fd2600bca3ce227a571d742ca7b17353
+
+COCOAPODS: 1.5.0
