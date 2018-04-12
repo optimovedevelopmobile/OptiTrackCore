@@ -17,9 +17,11 @@ final public class MatomoTracker: NSObject {
         }
     }
     
+    //MARK: - Changed by Optimove
+    
     /// Will be used to associate all future events with a given userID. This property
     /// is persisted between app launches.
-    public var visitorId: String? {
+    public var userId: String? {
         get {
             return matomoUserDefaults.visitorUserId
         }
@@ -28,6 +30,14 @@ final public class MatomoTracker: NSObject {
             visitor = Visitor.current(in: matomoUserDefaults)
         }
     }
+    
+    public var visitorId: String {
+        get {
+            return visitor.id
+        }
+    }
+    
+    //MARK: - 
     
     internal var matomoUserDefaults: MatomoUserDefaults
     private let dispatcher: Dispatcher
