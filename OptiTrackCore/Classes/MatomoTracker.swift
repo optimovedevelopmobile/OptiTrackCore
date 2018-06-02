@@ -35,6 +35,10 @@ final public class MatomoTracker: NSObject {
         get {
             return visitor.id
         }
+        set {
+            matomoUserDefaults.clientId = newValue
+            visitor = Visitor.current(in: matomoUserDefaults)
+        }
     }
     
     //MARK: -
