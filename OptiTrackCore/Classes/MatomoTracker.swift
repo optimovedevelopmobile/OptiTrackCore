@@ -194,7 +194,7 @@ final public class MatomoTracker: NSObject {
     
     internal var visitor: Visitor
     internal var session: Session
-    internal var nextEventStartsANewSession = true
+    internal var nextEventStartsANewSession = false
 
 }
 
