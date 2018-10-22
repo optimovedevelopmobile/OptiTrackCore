@@ -30,6 +30,7 @@
 		675973EB207F7D9000D9CE29 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675973D9207F7D9000D9CE29 /* Logger.swift */; };
 		675973EC207F7D9000D9CE29 /* MatomoTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 675973DA207F7D9000D9CE29 /* MatomoTracker.h */; };
 		675973ED207F7D9000D9CE29 /* MatomoTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675973DB207F7D9000D9CE29 /* MatomoTracker.swift */; };
+		67D32073217E0F540069B0D8 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D32072217E0F540069B0D8 /* OrderItem.swift */; };
 		A0928A9B26FAA04D84648C2A10D56858 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		675973D9207F7D9000D9CE29 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = OptiTrackCore/Classes/Logger.swift; sourceTree = "<group>"; };
 		675973DA207F7D9000D9CE29 /* MatomoTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatomoTracker.h; path = OptiTrackCore/Classes/MatomoTracker.h; sourceTree = "<group>"; };
 		675973DB207F7D9000D9CE29 /* MatomoTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatomoTracker.swift; path = OptiTrackCore/Classes/MatomoTracker.swift; sourceTree = "<group>"; };
+		67D32072217E0F540069B0D8 /* OrderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderItem.swift; path = OptiTrackCore/Classes/OrderItem.swift; sourceTree = "<group>"; };
 		6ADDF477CAF0A94BE1C11342AAECC271 /* Pods_OptiTrackCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptiTrackCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A276695460DDC8C1FD14DCD296E3F45 /* Pods-OptiTrackCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OptiTrackCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8447028C7391830DFF8F98E4393657BD /* Pods-OptiTrackCore_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OptiTrackCore_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 		FC77F9ACD6A468CD22357B90141DA072 /* OptiTrackCore */ = {
 			isa = PBXGroup;
 			children = (
+				67D32072217E0F540069B0D8 /* OrderItem.swift */,
 				675973CC207F7D8F00D9CE29 /* Application.swift */,
 				675973D7207F7D9000D9CE29 /* CustomDimension.swift */,
 				675973D0207F7D8F00D9CE29 /* CustomVariable.swift */,
@@ -349,6 +352,7 @@
 				675973E6207F7D9000D9CE29 /* Queue.swift in Sources */,
 				675973DD207F7D9000D9CE29 /* Event.swift in Sources */,
 				675973DE207F7D9000D9CE29 /* MemoryQueue.swift in Sources */,
+				67D32073217E0F540069B0D8 /* OrderItem.swift in Sources */,
 				391B8174E11B5D883A7C8077D7841F35 /* OptiTrackCore-dummy.m in Sources */,
 				675973E9207F7D9000D9CE29 /* Visitor.swift in Sources */,
 				675973E3207F7D9000D9CE29 /* CustomVariable.swift in Sources */,
