@@ -77,7 +77,6 @@ internal struct MatomoUserDefaults {
         }
         set {
             userDefaults.setValue(newValue, forKey: MatomoUserDefaults.Key.forcedVisitorID)
-            userDefaults.synchronize()
         }
     }
     
@@ -87,7 +86,6 @@ internal struct MatomoUserDefaults {
         }
         set {
             userDefaults.setValue(newValue, forKey: MatomoUserDefaults.Key.visitorUserID);
-            userDefaults.synchronize()
         }
     }
     

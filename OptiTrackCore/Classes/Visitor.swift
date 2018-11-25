@@ -12,7 +12,7 @@ struct Visitor: Codable {
     /// Unique ID per visitor (device in this case). Should be
     /// generated upon first start and never changed after.
     /// api-key: _id
-    let id: String
+    var id: String
     
     /// A unique visitor ID, possuble to override by the SDK user.
     /// api-key: cid
