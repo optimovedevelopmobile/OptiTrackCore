@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OptiTrackCore'
-  s.version          = '0.3.0'
+  s.version          = '1.3.0'
   s.summary          = 'optimove variation of Matomo\'s MatomoTracker'
   s.swift_version    = '4.2'
 
