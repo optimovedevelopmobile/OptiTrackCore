@@ -199,7 +199,7 @@ extension Event
 
 
         orderId = try? values.decode(String.self, forKey: .orderId)
-        orderItems = try values.decode([OrderItem].self, forKey: .orderItems) 
+        orderItems = try values.decodeIfPresent([OrderItem].self, forKey: .orderItems) ?? []
         orderRevenue = try? values.decode(Float.self, forKey: .orderRevenue)
         orderSubTotal = try? values.decode(Float.self, forKey: .orderSubTotal)
         orderTax = try? values.decode(Float.self, forKey: .orderTax)
